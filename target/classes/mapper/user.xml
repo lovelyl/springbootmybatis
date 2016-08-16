@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.springbootmybatis.demo.mapper.userMapper">
+
+	<resultMap id="userMap" type="User">
+		<id property="id" column="id"></id>
+		<result property="name" column="name"></result>
+		<result property="email" column="email"></result>
+		<result property="telphone" column="telphone"></result>
+		<result property="create_date" column="create_date"></result>
+		<result property="last_changed" column="last_changed"></result>
+	</resultMap>
+
+	
+	<select id="findOne" resultMap="userMap" resultType="com.springbootmybatis.demo.domain.User">
+
+		select
+		 u.id,
+		 u.name,
+		 u.email,
+		 u.telphone
+		 from user u
+		 where u.id=#{id};
+
+	</select>
+	
+	
+	<select id="findList" resultMap="java.util.List" resultType="com.springbootmybatis.demo.domain.User">
+
+		select * from user u  where u.id=#{id}
+
+	</select>
+
+	<update id="updateOne" parameterType="int" >
+
+		update  user u SET u.name =#{name} where u.id =#{id}
+	</update>
+
+	<delete id="deleteOne" parameterType="int">
+	 delete * from table user u where u.id =#{id }
+	</delete>
+
+
+	<select id="getAll" resultType="int">
+
+		select count(*) from user u order by u.id
+
+	</select>
+
+</mapper>

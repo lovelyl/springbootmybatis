@@ -1,0 +1,15 @@
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\commom\service\BaseService.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\service\cityService.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\mapper\cityMapper.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\domain\City.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\commom\config\mybatisConfig.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\service\Impl\userServiceImpl.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\commom\mapper\BaseMapper.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\SpringbootmybatisApplication.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\domain\User.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\service\Impl\cityServiceImpl.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\web\controller\cityController.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\mapper\userMapper.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\web\controller\userController.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\commom\service\Impl\BaseServiceImpl.java
+D:\IDEworkspace\springbootmybatis\src\main\java\com\springbootmybatis\demo\service\userService.java

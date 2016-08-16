@@ -1,0 +1,15 @@
+com\springbootmybatis\demo\commom\config\mybatisConfig.class
+com\springbootmybatis\demo\service\userService.class
+com\springbootmybatis\demo\web\controller\cityController.class
+com\springbootmybatis\demo\commom\service\Impl\BaseServiceImpl.class
+com\springbootmybatis\demo\service\Impl\userServiceImpl.class
+com\springbootmybatis\demo\domain\User.class
+com\springbootmybatis\demo\mapper\cityMapper.class
+com\springbootmybatis\demo\mapper\userMapper.class
+com\springbootmybatis\demo\service\cityService.class
+com\springbootmybatis\demo\service\Impl\cityServiceImpl.class
+com\springbootmybatis\demo\domain\City.class
+com\springbootmybatis\demo\SpringbootmybatisApplication.class
+com\springbootmybatis\demo\commom\service\BaseService.class
+com\springbootmybatis\demo\web\controller\userController.class
+com\springbootmybatis\demo\commom\mapper\BaseMapper.class
